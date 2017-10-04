@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Installing MultiFE"
+
+iosVersion=$(sw_vers -productVersion)
+
+echo "Checking if already installed."
+
+file = "/etc/MultiFE/StashedPref/com.nintendo.zaba.plist"
+
+if [-f "$file"] then
+	echo "Backup found"
+	exit 0
+
+else
+	echo "$file not found. Backing up..."
+fi

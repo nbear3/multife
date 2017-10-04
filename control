@@ -1,0 +1,10 @@
+Package: com.nbear3.multife
+Name: MultiFE
+Description: Play with multiple accounts in Fire Emblem Heroes.
+Version: 0.0.1
+Priority: optional
+Section: Addons (Activator)
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, libactivator, sudo
+Maintainer: nbear3
+Author: nbear3
